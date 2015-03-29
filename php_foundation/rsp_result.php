@@ -45,7 +45,7 @@ if (isset($_POST['rsp'])) {
         <div><p>COMPUTER: <?php echo $hands[$computerChoice]; ?></p></div>
         <div><p>YOU: <?php echo $hands[$userChoice]; ?></p></div>
         <div><h3 style="color: red;">JUDGEMENT: <?php echo $judgeMessage[$judgement]; ?></h3></div>
-        <p><a href="./rsp.php">PLAY ONCE MORE</a>
+        <p><a href="rsp.php">PLAY ONCE MORE</a>
     </div>
 </body>
 </html>
